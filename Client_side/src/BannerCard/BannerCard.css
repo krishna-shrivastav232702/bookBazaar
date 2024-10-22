@@ -1,0 +1,45 @@
+.banner .swiper {
+    width: 220px;
+    height: 320px;
+}
+
+.banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .swiper-slide:nth-child(1) {
+    background-image: url('../assets/6.png');
+}
+
+.banner .swiper-slide:nth-child(2n) {
+    background-image: url('../assets/7.png');
+}
+
+.banner .swiper-slide:nth-child(3n) {
+    background-image: url('../assets/4.png');
+}
+
+.banner .swiper-slide:nth-child(4n) {
+    background-image: url('../assets/1.png');
+}
+
+.banner .swiper-slide:nth-child(5n) {
+    background-image: url('../assets/2.png');
+}
+
+.banner .swiper-slide:nth-child(6n) {
+    background-image: url('../assets/3.png');
+}
+
+.banner .swiper-slide:nth-child(7n) {
+    background-image: url('../assets/8.png');
+}
+
