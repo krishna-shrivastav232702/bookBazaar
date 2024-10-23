@@ -112,7 +112,7 @@ const SignUp = () => {
                 <p className='text-sm mt-2'>Already have an account? <Link to="/login" className="text-blue-600 underline">Login</Link> Here</p>
 
                 <hr className='my-4 w-full' />
-                <p className='text-center mt-2 font-semibold text-lg'>Login with</p>
+                <p className='text-center mt-2 font-semibold text-lg'>Sign up with</p>
                 <div className='flex justify-between items-center mt-2 mb-4 '>
                     <button onClick={handleRegister}><FcGoogle className='text-2xl mt-2 inline mx-2 ' /></button>
                     <button><FaLinkedin className='text-2xl mt-2 inline mx-2' /></button>
